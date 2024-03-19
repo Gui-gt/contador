@@ -1,0 +1,39 @@
+body{
+    background-color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+section{
+    margin: auto;
+    margin-top: 100px;
+    width: 300px;
+    background-color: aliceblue;
+    border: 5px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.175);
+    text-align: center;
+}
+.button{
+    background-color: rgb(64, 88, 88);
+    border: none;
+    padding: 8px;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    transition: 0.4s;
+}
+.button:hover{
+    background-color: rgb(0, 246, 66);
+    transition: 0.3s;
+    color: black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.467);
+}
+input{
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+    margin-inline: 5px;
+}
+.line3{
+    margin-left: 20px;
+}
